@@ -1,0 +1,34 @@
+nav {
+  .nav-wrapper {
+    .brand-logo {
+      left: 13px;
+    }
+  }
+}
+.blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .blog {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+  }
+}
+
+.recipes-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .recipes-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+  }
+}
